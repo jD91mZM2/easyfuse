@@ -1,0 +1,21 @@
+[package]
+name = "easyfuse"
+version = "0.1.0"
+authors = ["jD91mZM2 <me@krake.one>"]
+edition = "2018"
+description = "A high-level idiomatic wrapper around rust-fuse"
+license = "MIT"
+repository = "https://gitlab.com/jD91mZM2/easyfuse"
+readme = "README.md"
+keywords = ["filesystem", "fuse", "idiom"]
+categories = ["api-bindings", "filesystem"]
+
+[dependencies]
+fuse = "0.3.1"
+libc = "0.2.65"
+time = "0.1.42"
+bitflags = "1.2.1"
+log = "0.4.8"
+
+[dev-dependencies]
+env_logger = "0.7.1"
